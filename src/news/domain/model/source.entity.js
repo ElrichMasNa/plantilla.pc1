@@ -1,5 +1,4 @@
-﻿export class source{
-
+﻿export class Source{
     constructor({
                 id = '',
                 name = '',
