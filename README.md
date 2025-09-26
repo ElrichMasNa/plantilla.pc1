@@ -7,6 +7,10 @@ Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://
 
 
 install: 
- npm i axios
+npm i axios
+
+
 npm i vue-i18n@11
- npm i primevue @primeuix/themes primeicons primeflex
+ 
+ 
+npm i primevue @primeuix/themes primeicons primeflex
