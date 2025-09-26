@@ -6,7 +6,7 @@ import {ArticleAssembler} from "../infrastructure/article-assembler.js";
 
 const newsApi = new NewsApi();
 
-export const newstore = reactive({
+export const newsstore = reactive({
     source: [],
     article: [],
     errors: [],

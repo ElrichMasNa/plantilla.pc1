@@ -5,8 +5,8 @@ import {SelectButton as PvSelectButton} from "primevue";
 
 <template>
 <pv-select-button
-    v-model = "$i18n.locale" :options = "$i18n.availablelocales.map(locals => ({label: locale, toUpperCase: locals.toUpperCase(), value: locale}))"/>
-
+    v-model="$i18n.locale"
+    :options="$i18n.availableLocales"/>
 </template>
 
 <style scoped>
