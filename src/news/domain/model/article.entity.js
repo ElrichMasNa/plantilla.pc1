@@ -1,12 +1,12 @@
 ﻿export class Article {
     constructor({
-        tittle= '',
+        title= '',
         description = '',
         url = '',
         urlToImage = '',
         source = null,
         publishedAT  = '',}) {
-        this.tittle = tittle;
+        this.title = title;
         this.description = description;
         this.url = url;
         this.urlToImage = urlToImage;
